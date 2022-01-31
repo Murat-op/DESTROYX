@@ -1,7 +1,7 @@
-FROM sandy1709/catuserbot:alpine
+FROM Murat-op/Destroyx:alpine
 
 #clonning repo 
-RUN git clone https://github.com/TEAM-LYNX-OP/LYNX-USERBOT.git /root/userbot
+RUN git clone https://github.com/Murat-op/DESTROYX.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
@@ -10,4 +10,4 @@ RUN pip3 install -U -r requirements.txt
 
 ENV PATH="/home/userbot/bin:$PATH"
 
-CMD ["bash","./LYNX/start.sh"]
+CMD ["bash","./Manjeet/start.sh"]
