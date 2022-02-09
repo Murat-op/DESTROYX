@@ -11,8 +11,7 @@
   ],
   "repository": "https://t.me/DESTROYXsupport",
   "website": "https://t.me/DXplugins",
-  "success_url": "https://t.me/CriMiNaL786",
-  "stack": "container",
+  "success_url": "https://t.me/Murat-op",
   "env": {
     "TELEGRAM_API_KEY": {
       "description": "Get this value from my.telegram.org.[IMPORTANT]",
