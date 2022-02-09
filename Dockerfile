@@ -61,6 +61,6 @@ RUN axel https://chromedriver.storage.googleapis.com/86.0.4240.22/chromedriver_l
 #RUN chmod +x /usr/local/bin/*
 RUN pip3 install -r requirements.txt
 #CMD ["python3","-m","userbot"]
-CMD ["bash","./start.sh"]
+CMD ["bash","Manjeet/start.sh"]
 
 
